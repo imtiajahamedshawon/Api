@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Placeholder | API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #teams {
+            height: 92vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .details {
+            height: 92vh;
+
+        }
+
+    </style>
+</head>
+
+<body class="m-4">
+    <!-- <button onclick="" id="btn" class="btn btn-outline-primary">Load Data</button> -->
+
+    <section>
+
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-4 details border-danger border">
+                <h3 class="text-center">Team Details:</h3>
+                <hr>
+                <div class="input-group mb-3">
+                    <input id="inputField" type="text" class="form-control" placeholder="Search here"
+                        aria-label="Search here" aria-describedby="basic-addon2">
+                    <span class="input-group-text btn btn-success" id="btn">Load Data</span>
+                </div>
+
+                <div id="show-detail">
+
+                </div>
+            </div>
+            <div id="teams" class="col-8 d-flex border border-danger justify-content-around flex-wrap">
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/api7.js"></script>
+</body>
+
+</html>
